@@ -5,6 +5,7 @@ int main(void)
     for (i = 0; i < 5; i++)
     {
         s += t[i];
+        printf("s: %d, t[%d]: %d\n", s, i, t[i]);
     }
     printf("%d", s);
     return 0;

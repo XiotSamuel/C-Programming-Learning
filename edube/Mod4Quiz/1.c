@@ -9,14 +9,18 @@ int main(void)
         {
         case 0:
             j++;
+            printf("case 0 %d\n", j);
             break;
         case 2:
             j++;
+            printf("case 2 %d\n", j);
         case 4:
             j++;
+            printf("case 4 %d\n", j);
             break;
         default:
             j--;
+            printf("deaf %d\n", j);
         }
     }
     printf("%d\n", j);
