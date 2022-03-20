@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int i = 1;
+int *f(void)
+{
+    return &i;
+}
+
+int main(void)
+{
+    int i = 0;
+    i = *f();
+    printf("%d", i);
+    return 0;
+}
