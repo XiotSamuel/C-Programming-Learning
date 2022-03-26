@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main(void)
+{
+    FILE *f = fopen("file", "w");
+    int i = fputs(f, "Hello!");
+
+    printf("%d", i != EOF);
+    fclose(f);
+
+    return 0;
+}

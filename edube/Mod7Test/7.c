@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+// int main(void)
+// {
+//     FILE *f = fopen("file", "w");
+//     int i = fputs(f, "Hello!");
+
+//     printf("%d", i != EOF);
+//     fclose(f);
+//     return 0;
+// }
+
+int main(void)
+{
+    FILE *f = fopen("file", "w");
+    int i;
+    fputs("12A", f);
+    fclose(f);
+    f = fopen("file", "r");
+    fseek(f);
+    i = ftell(f, 0, SEEK_END);
+    fclose(f);
+    printf("%d", i);
+    return 0;
+}
