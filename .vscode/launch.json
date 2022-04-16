@@ -5,7 +5,7 @@
       "type": "lldb",
       "request": "launch",
       "name": "Launch",
-      "program": "${workspaceFolder}/edube/Mod4Quiz/1.c",
+      "program": "${workspaceFolder}/edube/PART SUMMARY TEST/1.c",
       "args": [],
       "cwd": "${workspaceFolder}"
     }

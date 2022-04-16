@@ -1,13 +1,19 @@
 #include <stdio.h>
 
-int fun()
+struct S
 {
-    int a;
-    return ++a;
+    int S[3];
+};
+
+void f(struct S S)
+{
+    S.S[0] = S.S[1] + S.S[2] - 4;
 }
 
-int main()
+int main(void)
 {
-    printf("%d", fun());
+    struct S S = {{1, 4, 2}};
+    f(S);
+    printf("%d", S.S[1] * S.S[0]);
     return 0;
 }
