@@ -1,0 +1,1 @@
+ptr is a pointer to pointer to double.
