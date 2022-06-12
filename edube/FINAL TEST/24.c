@@ -6,6 +6,8 @@ int main(void)
 {
     int i = 19;
     i = i - XYZ;
+    printf("%d\n", XYZ);
+    printf("%d\n", i - XYZ);
     printf("%d\n", i);
     return 0;
 }

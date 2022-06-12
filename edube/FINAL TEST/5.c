@@ -12,7 +12,11 @@ char *g(char *p)
 
 int main(void)
 {
+
     char *s = "ABCDEFGHIJ";
+    // printf(f(s + 6));
+    // printf(g(s));
+    printf(f(s));
     char p = *f(g(f(s + 6)));
     printf("%d", p - 'A');
     return 0;
