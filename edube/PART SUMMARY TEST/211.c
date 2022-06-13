@@ -3,7 +3,7 @@
 int main(void)
 {
     int i = 5, j = i - 4 * i;
-
+    printf("j: %d\n", j);
     switch (j)
     {
     default:
