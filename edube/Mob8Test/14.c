@@ -5,6 +5,8 @@
 int main(void)
 {
     int i = ALPHA + BETA * ALPHA * BETA;
+    printf("ALPHA: %d\n", ALPHA);
+    printf("BETA: %d\n", BETA);
     printf("%d", i);
     return 0;
 }

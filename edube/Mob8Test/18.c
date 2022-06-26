@@ -4,6 +4,6 @@
 int main(void)
 {
     int i = ALPHA(1 - 1);
-    printf("%d", i);
+    printf("i: %d\n", i);
     return 0;
 }

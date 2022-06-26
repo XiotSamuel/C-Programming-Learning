@@ -1,0 +1,10 @@
+#include <stdio.h>
+#define ALPHA -1 - 2
+
+int main(void)
+{
+    int i = -1;
+    i = i * ALPHA;
+    printf("%d", i);
+    return 0;
+}

@@ -14,9 +14,9 @@ int main(void)
 {
 
     char *s = "ABCDEFGHIJ";
-    // printf(f(s + 6));
-    // printf(g(s));
-    printf(f(s));
+    // println(f(s + 6));
+    // println(g(s));
+    printf("%s\n", f(s));
     char p = *f(g(f(s + 6)));
     printf("%d", p - 'A');
     return 0;

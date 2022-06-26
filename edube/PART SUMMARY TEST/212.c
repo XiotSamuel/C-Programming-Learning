@@ -5,6 +5,7 @@ int main(void)
 {
     char tt[20] = "0123456789";
     strcat(tt + 11, "123");
+    printf("tt: %s\n", tt);
     printf("%d\n", strlen(tt) - tt[8] + '0');
     return 0;
 }

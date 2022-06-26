@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main(void)
+{
+    FILE *f;
+
+    int i = fprintf(f, "Hello!");
+
+    printf("%d", i == EOF);
+    return 0;
+}

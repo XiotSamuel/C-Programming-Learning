@@ -1,0 +1,20 @@
+#include <stdio.h>
+#define A
+#define C
+
+int main(void)
+{
+    int i =
+#ifdef A
+#ifdef B
+        -1
+#else
+        -2
+#endif
+#else
+        -3
+#endif
+        ;
+    printf("%d", i);
+    return 0;
+}
